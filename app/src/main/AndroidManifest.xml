@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Egame"
         tools:targetApi="31">
         <activity
+            android:name=".signin"
+            android:exported="false" />
+        <activity
+            android:name=".DatabaseHelper"
+            android:exported="false" />
+        <activity
             android:name=".End"
             android:exported="false" />
         <activity
@@ -23,6 +29,9 @@
             android:exported="false" />
         <activity
             android:name=".Enter"
+            android:exported="false" />
+        <activity
+            android:name=".login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

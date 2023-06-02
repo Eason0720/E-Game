@@ -26,7 +26,7 @@ public class End extends AppCompatActivity {
             hint.setText("你贏了");
         } else if (Enter.flag1 == false && Enter.flag2 == true) {
             hint.setText("你贏了");
-        }else if(Enter.flag1 == true && Enter.flag2 == true){
+        }else if(Enter.flag1 == false && Enter.flag2 == false){
             hint.setText("你輸了");
         } else{
             if(Enter.emperor == true && Enter.slave == false){
